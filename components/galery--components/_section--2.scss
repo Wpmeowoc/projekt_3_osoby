@@ -1,0 +1,20 @@
+@use "../../abstract/abstract" as *;
+
+.galery-component-section-2 {
+  @include flex-center;
+  &__right {
+    border: 3px solid $color7;
+    width: 550px;
+    
+  background: rgba(255, 255, 255, 0.33);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+  }
+  &__left {
+    border: 5px solid $color8;
+    width: 550px;
+    background-color: $color8;
+  }
+}

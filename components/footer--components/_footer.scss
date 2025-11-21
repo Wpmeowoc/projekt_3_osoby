@@ -1,0 +1,17 @@
+@use "../../abstract/abstract" as *;
+
+footer {
+  width: 100vw;
+  height: 23.5vh;
+  background: rgba(248, 239, 239, 0.33);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);  
+  border: 2px solid $color9;
+}
+@property --a{
+  syntax: '<angle>';
+  inherits: true;
+  initial-value: 0deg;
+}
