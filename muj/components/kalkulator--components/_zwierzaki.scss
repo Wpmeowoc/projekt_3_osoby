@@ -14,9 +14,20 @@ button {
     width: 30vw;
     height: 15vh;
     color: rgb(255, 255, 255);
-    background-color: map-get($color10, color);
-    animation: map-get($color10, animation);
-    border: 1px solid $color5;
+    background: rgba(255, 255, 255, 0.33);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    border: 8px solid ;
+    border-radius: 10px;
+    animation: pastelPink 3s infinite linear;
+    @keyframes pastelPink {
+    0%   { border-color: rgb(255, 182, 193); }  
+    25%  { border-color: rgb(255, 204, 221); } 
+    50%  { border-color: rgb(255, 170, 200); } 
+    75%  { border-color: rgb(230, 170, 220); }  
+    100% { border-color: rgb(255, 182, 193); }  
+    }
     margin: 30px;
     display: flex;
     justify-content: center;
@@ -29,6 +40,7 @@ button {
     background-color: $color5;
     height: 35%;
     width: 35%;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -36,12 +48,12 @@ button {
 }
 
 .xxx p {
-    font-size: 70px;
+    font-size: 30px;
 }
 
 h1{
     text-align: center;
-    font-size: 30px;
+    font-size: medium;
 }
 
 div{

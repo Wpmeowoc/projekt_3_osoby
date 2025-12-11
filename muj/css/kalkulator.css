@@ -197,56 +197,6 @@ body {
     border-color: rgb(255, 182, 193);
   }
 }
-section {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-button {
-  width: 30vw;
-  height: 15vh;
-  color: rgb(255, 255, 255);
-  background-color: rgb(255, 182, 193);
-  animation: pastelPink 3s infinite linear;
-  border: 1px solid rgb(253, 209, 255);
-  margin: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  font-size: 30px;
-}
-
-.xxx {
-  background-color: rgb(253, 209, 255);
-  height: 35%;
-  width: 35%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.xxx p {
-  font-size: 70px;
-}
-
-h1 {
-  text-align: center;
-  font-size: 30px;
-}
-
-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-}
-
 footer {
   height: 13.5vh;
   justify-content: center;
@@ -270,7 +220,6 @@ footer img {
 }
 header {
   width: 100vw;
-  height: 11vh;
   background: rgba(248, 239, 239, 0.33);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);

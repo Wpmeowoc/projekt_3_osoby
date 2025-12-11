@@ -15,11 +15,11 @@
       border-radius: 10px;
     animation: pastelPink 3s infinite linear;
     @keyframes pastelPink {
-      0%   { border-color: rgb(255, 182, 193); }  // pastelowy róż (light pink)
-      25%  { border-color: rgb(255, 204, 221); }  // jaśniejszy pastel
-      50%  { border-color: rgb(255, 170, 200); }  // lekko malinowy pastel
-      75%  { border-color: rgb(230, 170, 220); }  // pastelowy fioletowo-różowy
-      100% { border-color: rgb(255, 182, 193); }  // powrót do startowego
+      0%   { border-color: rgb(255, 182, 193); }  
+      25%  { border-color: rgb(255, 204, 221); } 
+      50%  { border-color: rgb(255, 170, 200); } 
+      75%  { border-color: rgb(230, 170, 220); }  
+      100% { border-color: rgb(255, 182, 193); }  
     }
         }
       }
