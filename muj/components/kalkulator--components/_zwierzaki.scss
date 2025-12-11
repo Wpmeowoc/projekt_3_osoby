@@ -1,0 +1,52 @@
+@use "../../abstract" as *;
+@use "../../abstract/animations" as *;
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 30vw;
+    height: 15vh;
+    color: rgb(255, 255, 255);
+    background-color: map-get($color10, color);
+    animation: map-get($color10, animation);
+    border: 1px solid $color5;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+
+.xxx {
+    background-color: $color5;
+    height: 35%;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.xxx p {
+    font-size: 70px;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}

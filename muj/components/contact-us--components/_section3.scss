@@ -1,0 +1,18 @@
+@use "../../abstract/abstract" as *;
+
+input{
+    width: 20%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1.5px solid rgba($color: #ffa0df, $alpha: 1.0);
+    border-radius: 15px;
+}
+textarea{
+    width: 20%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1.5px solid rgba($color: #ffa0df, $alpha: 1.0);
+    border-radius: 15px;
+}

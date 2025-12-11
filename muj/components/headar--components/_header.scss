@@ -1,0 +1,54 @@
+@use "../../abstract/abstract" as *;
+
+header {
+  width: 100vw;
+  height: 11vh;
+  background: rgba(248, 239, 239, 0.33);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+  border: 5px solid $color9;
+  ul{
+    @include flex-center;
+    list-style: none;
+    text-align: center;
+
+    gap: 50px;
+    li{
+      padding: 18px;
+      @include flex-center;
+      gap: 10px;
+      font-size: 29px;
+      font-weight: bold;
+      color: $color9;
+      cursor: pointer;
+      &:hover{
+        color: $color3;
+        transform: scale(1.4);
+        transition:  0.9s ;
+      }
+    }
+  }
+}
+@property --a{
+  syntax: '<angle>';
+  inherits: true;
+  initial-value: 0deg;
+}
+@property --p {
+  syntax: '<percentage>';
+  inherits: true;
+  initial-value: 0%;
+}
+@property --c1 {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #000;
+}
+@property --c2 {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #000;
+}
+
